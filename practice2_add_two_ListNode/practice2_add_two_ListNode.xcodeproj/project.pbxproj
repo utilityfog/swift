@@ -14,6 +14,7 @@
 		1A8AC85A2C54730B0019E026 /* practice2_add_two_ListNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC8592C54730B0019E026 /* practice2_add_two_ListNodeTests.swift */; };
 		1A8AC8642C54730B0019E026 /* practice2_add_two_ListNodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC8632C54730B0019E026 /* practice2_add_two_ListNodeUITests.swift */; };
 		1A8AC8662C54730B0019E026 /* practice2_add_two_ListNodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC8652C54730B0019E026 /* practice2_add_two_ListNodeUITestsLaunchTests.swift */; };
+		1A8AC8732C5473320019E026 /* addTwoListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC8722C5473320019E026 /* addTwoListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1A8AC85F2C54730B0019E026 /* practice2_add_two_ListNodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practice2_add_two_ListNodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8AC8632C54730B0019E026 /* practice2_add_two_ListNodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice2_add_two_ListNodeUITests.swift; sourceTree = "<group>"; };
 		1A8AC8652C54730B0019E026 /* practice2_add_two_ListNodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice2_add_two_ListNodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A8AC8722C5473320019E026 /* addTwoListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTwoListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				1A8AC84A2C54730A0019E026 /* ContentView.swift */,
 				1A8AC84C2C54730B0019E026 /* Assets.xcassets */,
 				1A8AC84E2C54730B0019E026 /* Preview Content */,
+				1A8AC8722C5473320019E026 /* addTwoListNode.swift */,
 			);
 			path = practice2_add_two_ListNode;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8AC8732C5473320019E026 /* addTwoListNode.swift in Sources */,
 				1A8AC84B2C54730A0019E026 /* ContentView.swift in Sources */,
 				1A8AC8492C54730A0019E026 /* practice2_add_two_ListNodeApp.swift in Sources */,
 			);
