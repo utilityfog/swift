@@ -14,6 +14,7 @@
 		1A8AC8922C55178A0019E026 /* practice3_remove_repeatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC8912C55178A0019E026 /* practice3_remove_repeatsTests.swift */; };
 		1A8AC89C2C55178A0019E026 /* practice3_remove_repeatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC89B2C55178A0019E026 /* practice3_remove_repeatsUITests.swift */; };
 		1A8AC89E2C55178A0019E026 /* practice3_remove_repeatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC89D2C55178A0019E026 /* practice3_remove_repeatsUITestsLaunchTests.swift */; };
+		1A8AC8AB2C5517BB0019E026 /* RemoveRepeats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC8AA2C5517BB0019E026 /* RemoveRepeats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1A8AC8972C55178A0019E026 /* practice3_remove_repeatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practice3_remove_repeatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8AC89B2C55178A0019E026 /* practice3_remove_repeatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice3_remove_repeatsUITests.swift; sourceTree = "<group>"; };
 		1A8AC89D2C55178A0019E026 /* practice3_remove_repeatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice3_remove_repeatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A8AC8AA2C5517BB0019E026 /* RemoveRepeats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveRepeats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				1A8AC8822C5517880019E026 /* ContentView.swift */,
 				1A8AC8842C55178A0019E026 /* Assets.xcassets */,
 				1A8AC8862C55178A0019E026 /* Preview Content */,
+				1A8AC8AA2C5517BB0019E026 /* RemoveRepeats.swift */,
 			);
 			path = practice3_remove_repeats;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A8AC8AB2C5517BB0019E026 /* RemoveRepeats.swift in Sources */,
 				1A8AC8832C5517880019E026 /* ContentView.swift in Sources */,
 				1A8AC8812C5517880019E026 /* practice3_remove_repeatsApp.swift in Sources */,
 			);
