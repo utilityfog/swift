@@ -13,24 +13,24 @@ import Darwin
 class Solution {
     func countIdeals(_ low: Int, _ high: Int) -> Int? {
         var count = 0
-            var powerOfThree = 1
+        var powerOfThree = 1
+        
+        // Iterate over powers of 3
+        while powerOfThree <= high {
+            var powerOfFive = 1
             
-            // Iterate over powers of 3
-            while powerOfThree <= high {
-                var powerOfFive = 1
-                
-                // Iterate over powers of 5
-                while powerOfThree * powerOfFive <= high {
-                    let idealNumber = powerOfThree * powerOfFive
-                    if idealNumber >= low {
-                        count += 1
-                    }
-                    powerOfFive *= 5
+            // Iterate over powers of 5
+            while powerOfThree * powerOfFive <= high {
+                let idealNumber = powerOfThree * powerOfFive
+                if idealNumber >= low {
+                    count += 1
                 }
-                
-                powerOfThree *= 3
+                powerOfFive *= 5
             }
             
-            return count
+            powerOfThree *= 3
+        }
+        
+        return count
     }
 }
