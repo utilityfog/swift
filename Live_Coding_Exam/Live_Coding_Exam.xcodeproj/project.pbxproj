@@ -14,6 +14,7 @@
 		1A8AC9992C55FD5B0019E026 /* Live_Coding_ExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC9982C55FD5B0019E026 /* Live_Coding_ExamTests.swift */; };
 		1A8AC9A32C55FD5B0019E026 /* Live_Coding_ExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC9A22C55FD5B0019E026 /* Live_Coding_ExamUITests.swift */; };
 		1A8AC9A52C55FD5B0019E026 /* Live_Coding_ExamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC9A42C55FD5B0019E026 /* Live_Coding_ExamUITestsLaunchTests.swift */; };
+		1A8AC9B22C55FD820019E026 /* GenderExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AC9B12C55FD820019E026 /* GenderExtractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1A8AC99E2C55FD5B0019E026 /* Live_Coding_ExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Live_Coding_ExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A8AC9A22C55FD5B0019E026 /* Live_Coding_ExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_Coding_ExamUITests.swift; sourceTree = "<group>"; };
 		1A8AC9A42C55FD5B0019E026 /* Live_Coding_ExamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_Coding_ExamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A8AC9B12C55FD820019E026 /* GenderExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				1A8AC9892C55FD590019E026 /* ContentView.swift */,
 				1A8AC98B2C55FD5B0019E026 /* Assets.xcassets */,
 				1A8AC98D2C55FD5B0019E026 /* Preview Content */,
+				1A8AC9B12C55FD820019E026 /* GenderExtractor.swift */,
 			);
 			path = Live_Coding_Exam;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				1A8AC98A2C55FD590019E026 /* ContentView.swift in Sources */,
 				1A8AC9882C55FD590019E026 /* Live_Coding_ExamApp.swift in Sources */,
+				1A8AC9B22C55FD820019E026 /* GenderExtractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
